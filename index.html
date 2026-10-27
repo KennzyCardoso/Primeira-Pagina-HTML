@@ -1,84 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Desafio de Projeto - Primeira Página HTML</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 </head>
 <body>
-   <!-- MENU DE NAVEGAÇÃO -->
-    <h1 id="topo">📑 Desafio de Projeto - HTML Básico</h1>
-    <p>Navegue pelos tópicos abaixo:</p>
+
+    <h1 id="topo">Minha primeira página HTML</h1>
+    <p><small>Desafio de Projeto da trilha de HTML da <abbr title="Digital Innovation One">DIO</abbr></small></p>
+
+    <p>Nessa página eu juntei o que aprendi nas aulas. Os assuntos são:</p>
     <ul>
-        <li><a href="#introducao">Introdução</a></li>
-        <li><a href="#formatacao">Formatação de Texto</a></li>
+        <li><a href="#comeco">Como comecei</a></li>
+        <li><a href="#titulos">Títulos</a></li>
+        <li><a href="#formatacao">Formatando o texto</a></li>
         <li><a href="#listas">Listas</a></li>
-        <li><a href="#links">Links Externos</a></li>
-        <li><a href="#extras">Tags Extras</a></li>
+        <li><a href="#citacoes">Citações</a></li>
+        <li><a href="#pesquisa">Tags que pesquisei</a></li>
+        <li><a href="#links">Links</a></li>
     </ul>
 
     <hr>
 
-    <!-- SEÇÃO INTRODUÇÃO -->
-    <h2 id="introducao">Introdução</h2>
-    <p>Este site foi criado para demonstrar o uso das principais <abbr title="HyperText Markup Language">HTML</abbr> tags.</p>
-    <p>Exemplo de equação: H<sub>2</sub>O e x<sup>2</sup>.</p>
-    <blockquote>"A prática leva à perfeição!"</blockquote>
-
-    <p><a href="#topo">🔝 Voltar ao topo</a></p>
-
-    <hr>
-
-    <!-- SEÇÃO FORMATACAO -->
-    <h2 id="formatacao">Formatação de Texto</h2>
-    <p>Um texto pode ter <strong>negrito</strong>, <i>itálico</i>, <u>sublinhado</u>, <mark>destaque</mark> ou até ficar em <small>tamanho pequeno</small>.</p>
-    <p>Também é possível mostrar <del>conteúdo removido</del> ou usar <font color="blue">cores antigas</font> (não recomendado atualmente).</p>
-
-    <p><a href="#topo">🔝 Voltar ao topo</a></p>
-
-    <hr>
-
-    <!-- SEÇÃO LISTAS -->
-    <h2 id="listas">Listas</h2>
-
-    <h3>Lista Ordenada</h3>
-    <ol>
-        <li>Aprender HTML</li>
-        <li>Praticar exercícios</li>
-        <li>Criar projetos</li>
-    </ol>
-
-    <h3>Lista Não Ordenada</h3>
-    <ul>
-        <li>Tags</li>
-        <li>Formatos</li>
-        <li>Estruturas</li>
-    </ul>
-
-    <p><a href="#topo">🔝 Voltar ao topo</a></p>
-
-    <hr>
-
-    <!-- SEÇÃO LINKS -->
-    <h2 id="links">Links Externos</h2>
-    <p>Você pode aprender mais sobre HTML acessando o 
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+    <h2 id="comeco">Como comecei</h2>
+    <p>
+        Antes do curso eu achava que <abbr title="HyperText Markup Language">HTML</abbr> era uma linguagem
+        de programação, mas na verdade é uma linguagem de marcação. Ela só organiza o conteúdo da página,
+        dizendo o que é título, o que é parágrafo, o que é lista e assim por diante.
+    </p>
+    <p>
+        A primeira coisa que fiz foi um "Olá, mundo" bem simples. Depois fui adicionando
+        as tags que apareciam em cada aula, e esta página é o resultado disso.
     </p>
 
-    <p><a href="#topo">🔝 Voltar ao topo</a></p>
-
+    <p><a href="#topo">Voltar ao topo</a></p>
     <hr>
 
-    <!-- SEÇÃO TAGS EXTRAS -->
-    <h2 id="extras">Tags Extras</h2>
-    <p>Exemplo usando <abbr title="Cascading Style Sheets">CSS</abbr> junto com HTML.</p>
-    <p>Outra citação famosa:</p>
-    <blockquote>“Simplicidade é o último grau da sofisticação.” – Leonardo da Vinci</blockquote>
+    <h2 id="titulos">Títulos</h2>
+    <p>
+        O HTML tem seis níveis de título, do h1 ao h6. O h1 é o principal da página e os outros
+        vão diminuindo de importância. Fica mais ou menos assim:
+    </p>
 
-    <p><a href="#topo">🔝 Voltar ao topo</a></p>
+    <h3>Título de nível 3</h3>
+    <h4>Título de nível 4</h4>
+    <h5>Título de nível 5</h5>
+    <h6>Título de nível 6</h6>
+
+    <p>
+        Uma coisa que o professor comentou e eu não sabia: não devemos escolher o título pelo tamanho
+        da letra, e sim pela <mark>hierarquia do conteúdo</mark>. O tamanho a gente muda depois com CSS.
+    </p>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <h2 id="formatacao">Formatando o texto</h2>
+    <p>
+        Dá para deixar uma palavra em <strong>negrito</strong> quando ela é importante,
+        em <i>itálico</i> quando é um termo em outra língua, como <i>front-end</i>,
+        ou <u>sublinhada</u>. Também dá para <mark>marcar um trecho</mark> como se fosse
+        marca-texto, ou escrever <small>bem pequeno</small> para uma observação.
+    </p>
+    <p>
+        Para fórmulas e números eu usei o sub e o sup. A água é H<sub>2</sub>O, o gás carbônico
+        é CO<sub>2</sub>, e pelo Teorema de Pitágoras a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
+        Este é o meu 1<sup>º</sup> desafio da trilha.
+    </p>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <h2 id="listas">Listas</h2>
+    <p>Aprendi dois tipos de lista. A ordenada, com números, que usei para o meu passo a passo:</p>
+    <ol>
+        <li>Assistir às aulas</li>
+        <li>Refazer os exemplos no VS Code</li>
+        <li>Montar esta página</li>
+        <li>Subir o projeto no GitHub</li>
+    </ol>
+
+    <p>E a não ordenada, com marcadores, para quando a ordem não faz diferença. Coisas que quero estudar depois:</p>
+    <ul>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git e GitHub</li>
+    </ul>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <h2 id="citacoes">Citações</h2>
+    <p>Para citações usei o blockquote. Separei duas frases de que gosto:</p>
+
+    <blockquote>
+        "Simplicidade é o último grau da sofisticação." - Leonardo da Vinci
+    </blockquote>
+
+    <blockquote>
+        "A prática leva à perfeição."
+    </blockquote>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <h2 id="pesquisa">Tags que pesquisei</h2>
+    <p>Essas não apareceram nas aulas, então fui procurar como funcionam.</p>
+
+    <h3>abbr</h3>
+    <p>
+        Serve para abreviações. Quando passa o mouse em cima da sigla, aparece o significado.
+        Teste em <abbr title="Cascading Style Sheets">CSS</abbr> ou em
+        <abbr title="World Wide Web Consortium">W3C</abbr>.
+    </p>
+
+    <h3>del</h3>
+    <p>
+        Mostra um texto riscado, como se tivesse sido apagado. Um uso comum é em promoções:
+        de <del>R$ 199,90</del> por <strong>R$ 99,90</strong>.
+    </p>
+
+    <h3>font</h3>
+    <p>
+        Era usada para mudar a cor, o tamanho e o tipo da letra, por exemplo
+        <font color="blue">texto azul</font>, <font color="red" size="5">texto vermelho maior</font>
+        e <font face="Courier New">outra fonte</font>.
+    </p>
+    <p>
+        <small>
+            Descobri pesquisando que o font não é mais usado no HTML5. Hoje isso é feito com CSS,
+            mas coloquei aqui porque fazia parte do desafio.
+        </small>
+    </p>
+
+    <h3>p</h3>
+    <p>
+        Essa eu já usava sem perceber. Cada parágrafo da página está dentro de um p,
+        que separa os blocos de texto.
+    </p>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <h2 id="links">Links</h2>
+    <p>Os sites que mais me ajudaram durante o curso:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+        <li><a href="https://github.com/digitalinnovationone/trilha-html-modulo-1" target="_blank">Repositório do curso no GitHub</a></li>
+    </ul>
+
+    <p><a href="#topo">Voltar ao topo</a></p>
+    <hr>
+
+    <p><small>Feito por mim para o Desafio de Projeto da DIO, 2026.</small></p>
 
 </body>
 </html>
